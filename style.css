@@ -81,6 +81,11 @@ nav a:hover{
     font-size: 28px;
 }
 
+.servicios-s{
+    margin-left: 200px;
+    margin-right: auto;
+}
+
 .transporte, .almacenamiento, .inventario, .devolucion, .personalizada, .soporte{
     width: 150px;
     height: 150px;
@@ -88,6 +93,11 @@ nav a:hover{
 
 .transporte, .devolucion{
     padding-bottom: 16px;
+}
+
+.personalizada{
+    padding-bottom: 15px;
+    margin-top: 25px;
 }
 
 .servicio-descripcion{
@@ -251,8 +261,15 @@ h3{
         font-size: 25px;
     }
 
-    .servicios li{
+    .servicios li, .servicios-s{
         width: auto;
     }
-}
 
+    .servicios-s{
+        margin-left: 1px;
+    }
+
+    .enviar{
+        width: 70%;
+    }
+}
